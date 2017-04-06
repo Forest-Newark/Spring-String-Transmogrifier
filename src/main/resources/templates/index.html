@@ -39,7 +39,7 @@
         <form>
             <div class="form-group row">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <input type="text" class="form-control" name="input" th:value="${result}" id="inputEmail3" placeholder="Enter Word"/>
+                    <input type="text" class="form-control" name="input" th:value="${result}" id="input" placeholder="Enter Word"/>
                 </div>
             </div>
             <fieldset class="form-group row">
@@ -48,25 +48,25 @@
                     <div class="form-check">
                         <label class="form-check-label">
                             <input class="form-check-input" type="radio" name="mode" id="gridRadios1" value="upperCase"/>
-                            To Upper Case&mdash; All Letters will be returned UPPER CASE (Example -> EXAMPLE).
+                            To Upper Case&mdash; Entry will be returned with all letters in UPPER CASE (Example -> EXAMPLE).
                         </label>
                     </div>
                     <div class="form-check">
                         <label class="form-check-label">
                             <input class="form-check-input" type="radio" name="mode" id="gridRadios2" value="lowerCase"/>
-                            To Lower Case&mdash; All Letters will be returned lower case (Example -> example).
+                            To Lower Case&mdash; Entry will be returned with all letters in lower case (Example -> example).
                         </label>
                     </div>
                     <div class="form-check">
                         <label class="form-check-label">
                             <input class="form-check-input" type="radio" name="mode" id="gridRadios3" value="reverse"/>
-                            Reverse&mdash; Entry will returned reversed (Example -> elpmaxE).
+                            Reverse&mdash; Entry will be returned in reverse order (Example -> elpmaxE).
                         </label>
                     </div>
                     <div class="form-check">
                         <label class="form-check-label">
                             <input class="form-check-input" type="radio" name="mode" id="gridRadios4" value="vowels"/>
-                            Remove Vowels&mdash; Entry will returned without vowels (Example -> xmpl).
+                            Remove Vowels&mdash; Entry will be returned without vowels (Example -> xmpl).
                         </label>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
     <div class="container">
         <p class="text-muted text-center">Created By: Forest Newark</p>
         <p class="text-muted text-center">Built as a project using Spring-Boot</p>
-        <p class="text-muted text-center">www.forestnewark.com</p>
+        <p class="text-center"><a href="http://www.forestnewark.com">www.forestnewark.com</a></p>
 
     </div>
 </footer>
