@@ -22,7 +22,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String showIndex(Model model, String mode, String input) {
-        if(input != null){
+        if(mode != null && input != null){
            model.addAttribute("result",st.transmogrify(mode,input));
         }
         return "index";

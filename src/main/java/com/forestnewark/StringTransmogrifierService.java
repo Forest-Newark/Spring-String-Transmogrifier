@@ -18,9 +18,21 @@ private StringTransmogrifier st;
         if (mode.equals("upperCase")){
             return st.toUpperCase(input);
         }
+        else if (mode.equals("lowerCase")){
+            return st.toLowerCase(input);
+        }
+        else if(mode.equals("vowels")){
+            return st.removeVowels(input);
+        }
+        else if(mode.equals("reverse")){
+            return st.reverse(input);
+        }
+        else{
+            return "Nothing happened";
+        }
 
 
-        return "Nothing happened";
+
     }
 
 
